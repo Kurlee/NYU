@@ -173,7 +173,7 @@ questions = [
     Question(question_prompts[58], "c"),
     Question(question_prompts[59], "a"),
     Question(question_prompts[60], "a"),
-    Question(question_prompts[61], "c"),
+    Question(question_prompts[61], "b"),
     Question(question_prompts[62], "a"),
     Question(question_prompts[63], "a"),
     Question(question_prompts[64], "d"),
