@@ -40,7 +40,7 @@ D
 C
 21. IPv4 and IPv6 addresses have \nA. 32 and 128 bit lengths respectively\nB. 24 and 64 bit lengths respectively\nC. /32 and /128 bit lengths respectively\nD. /24 and /64 bit lengths respectively
 A
-VOCAB
+EOF
 Intro
 A. Data Plane\nB. Control Plane\nC. Forwarding\nD. Routing\nE. Routing Algorithm\nF. Forwarding Table\nG. Software-Defined Networking (SDN)\n
 Network-wide process that determines the end-to-end paths that packets take from source to destination
