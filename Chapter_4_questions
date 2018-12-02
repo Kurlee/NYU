@@ -40,4 +40,38 @@ D
 C
 21. IPv4 and IPv6 addresses have \nA. 32 and 128 bit lengths respectively\nB. 24 and 64 bit lengths respectively\nC. /32 and /128 bit lengths respectively\nD. /24 and /64 bit lengths respectively
 A
+VOCAB
+Intro
+A. Data Plane\nB. Control Plane\nC. Forwarding\nD. Routing\nE. Routing Algorithm\nF. Forwarding Table\nG. Software-Defined Networking (SDN)\n
+Network-wide process that determines the end-to-end paths that packets take from source to destination
+D
+The network-wide logic that controls how a datagram is routed among routers along an end to end path from the source host to the destination host
+B
+A router forwards a packet by examining one or more value in the arriving packet's header and then using these header values to index into its _______________. The value stored in the _________________ for those values indicates the outgoing link interface at that router to which that packet is to be forwarded.
+F
+The router-local action of transferring a packet from an input link interface to the appropriate output link interface.
+C
+The Per-Rounter functions in the network layer that determine how a datagram arriving on one of a router's input links if forwarded to one of that router's output links.
+A
+The controller that computed forwarding tables and interacts with routers is implemented in software. The routing device perfoms forwarding only, while the remote controller computes and distributes forwarding tables.
+G
+An algorithm which calculates the path taken by packets from sender to receiver. Implemented in the control plane of the network layer.
+E
+Network Layer Service Model
+A. Network service model\nB. Guarenteed delivery\nC. Guaranteed delivery with bounded delay\nD. In-order packet delivery\nE. Guaranteed minimal bandwidth\nF. Security (as a network layer service)\nG. Best-effort Service
+This service not only guarantees delivery of the packet. but delivery within a specified host-to-host delay bound
+C
+The network layer could encrypt all datagrams at the source and decrypt them at the destination, providing confidentiality to all transport-layer segments
+F
+packets are neither guaranteed to be received in the order which they were sent, nor is their eventual delivery even guaranteed.
+G
+This service guarantees that packets arrive at the destination in the order that they were sent
+D
+This service guarantees that a packet sent by a source host will enventually arrice at the destination host
+B
+Defines the characteristics of end-to-end delivery of packets between sending and reveiving hosts
+A
+This service emulates the behavior of a transmission link of a specified bit rate between sending and reveiving hosts. As long as the sending hosts transmits bits at a rate below the specified bit rate, than all packets are eventually delivered to the destination host
+E
+
 EOF

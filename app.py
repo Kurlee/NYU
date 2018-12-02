@@ -31,7 +31,7 @@ def intro():
 
 def test_select():
     chapter = input('Enter Chapter: ')
-    filename_bank = 'quiz'+str(chapter)+'_TFMC'
+    filename_bank = 'Chapter_'+str(chapter)+'_questions'
     question_key = question_key_gen(filename_bank)
     return question_key
 
