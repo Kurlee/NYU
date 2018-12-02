@@ -1,0 +1,43 @@
+1. With a virtual-circuit network layer, packet switches are involved in virtual circuit setup, and each packet switch it aware of the VCs passing through it.\n T$F
+T
+2. With a datagram network layer, each packet carries the address of the destination host.\n T$F
+T
+3. In a distance-vector routing algorithm, each node has a map of the entire network and determines the shortest path from itself to all other nodes in the network.\n T$F
+T
+4. In the BGP routing algorithm, each AS advertises to its neighbors its estimates of the shortest distances from the AS to all possible destination ASs.\n T$F
+F
+5. OSPF uses BGP for routing among areas.\n T$F
+F
+6. Every autonomous system must use the same intra-autonomous system routing algorithm.\n T$F
+F
+7. Suppose the computer in your office has been configured with an IP address, and you move (along with your computer) to an office down the hall. If after the move your computer is connected to the same IP network, then it is not necessary to reconfigure the IP address in your computer.\n T$F
+T
+8. Single-homed hosts have one interface and routers typically have two or more interfaces.\n T$F
+T
+9. A gateway router must run both an intra-AS routing algorithm and an inter-AS routing algorithm.\n T$F
+T
+10. The network portion of an IP address is the same for all the hosts on the same IP network.\n T$F
+T
+11. NAT is known as a 'plug-n-play' or 'zero-conf' protocol\n T$F
+F
+12. Which of the following are properties of link-state algorithms.\nA. after the kth iteration, the least cost paths are known to k nodes\nB. It requires the source node to know the costs between every pair of adjacent nodes in the graph.\nC. It determines the shortest path from the source node to all other nodes.\nD. All of the above
+D
+13. In routing among AS's, which of the following issues are dominant\nA. Number of AS's traversed\nB. policy\nC. Current congestion levels\nD. Geographical distance between AS's
+B
+14. An application generates a 60 byte packet. This chunk is then sent to the transport layer and then the network layer. At this point, what percentage of the bytes in the datagram are the original application data?\nA. 20%\nB. 60%\nC. 80%\nD. 40%
+B
+15. The maximum amount of data that a _______ layer frame can carry is called Maximum Transmission Unit or MTU.\nA. Network\nB. Physical\nC. Link\nD. Application
+C
+16.According to the classful IP addressing schema, which of the following IP address belongs to the class-B IP address range\nA. 126.66.254.30\nB. 201.42.64.34\nC. 156.11.24.111\nD. 194.88.34.22
+C
+17. The role of a routing table is to _______\nA. transfer a packet from input link of a router to the appropriate outgoing link of a router\nB. determine the end-to-end path that packet takes from source to destination\nC. make sure all packets have arrived in correct sequence\nD. none of the above options
+B
+18. The ICMP protocol\nA. runs on top of UDP\nB. runs on top of IP\nC. runs on top of TCP\nD. none of the above
+B
+19. In a router, queuing can occur\nA. In the switching medium\nB. In the output ports\nC. In the input ports\nD. Both B and C
+D
+20. Which of the following switching mediums allow more than one packets to be forwarded from an input port to their appropriate output port\nA. Switching via Memory\nB. Switching via a bus\nC. Switching via a crossbar\nD. Switching via multiplexing
+C
+21. IPv4 and IPv6 addresses have \nA. 32 and 128 bit lengths respectively\nB. 24 and 64 bit lengths respectively\nC. $32 and $128 bit lengths respectively\nD. $24 and $64 bit lengths respectively
+A
+EOF
