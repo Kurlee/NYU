@@ -56,7 +56,10 @@ def run_test(question_key):
             sleep(3)
     
     print("\n\n\n\n")
-    os.system("cls")                   
+    if os.name == 'nt':
+        os.system("cls") # clears the screen must use import os
+    else:
+        os.system('clear')
     print("You got " + str(score) + "/" + str(len(questions)) + "correct")
 
 
