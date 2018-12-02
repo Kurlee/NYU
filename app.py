@@ -12,10 +12,12 @@ def question_key_gen(data_bank):
     with open(data_bank, 'r') as f:
         bank = {}
         question: str = f.readline().rstrip()
+        question = question.replace('\\n', '\n')
         answer: str = f.readline().rstrip()
         while question != 'EOF':
             bank[question] = answer
             question = f.readline().rstrip()
+            question = question.replace('\\n', '\n')
             answer = f.readline().rstrip()
         f.close()
         return bank
@@ -66,4 +68,3 @@ def run_test(question_key):
 intro()
 question_key = test_select()
 run_test(question_key)
-
